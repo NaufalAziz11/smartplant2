@@ -1,0 +1,262 @@
+<resources>
+    <string-array name="pilihan_menu">
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>>500</item>
+    </string-array>
+    <string name="app_name">smartplant</string>
+    <string name="smartplant1">SmartPlant</string>
+    <string name="aplikasi_edukasi_hidroponik1">Aplikasi Edukasi Hidroponik</string>
+    <string name="penanaman1">Penanaman</string>
+    <string name="txtpenanaman">txtpenanaman</string>
+    <string name="gpenanaman">gpenanaman</string>
+    <string name="perawatan">perawatan</string>
+    <string name="nutrisi">nutrisi</string>
+    <string name="Nutrisi">Nutrisi</string>
+    <string name="Perawatan">Perawatan</string>
+    <string name="praktik">praktik</string>
+    <string name="tentang">Tentang</string>
+    <string name="Tentang">Tentang</string>
+    <string name="katalog">Katalog</string>
+    <string name="Katalog">Katalog</string>
+    <string name="Praktek_Tanam">Praktek Tanam</string>
+    <string name="cabai">Cabai</string>
+    <string name="bayam">Bayam</string>
+    <string name="mint">Mint</string>
+    <string name="selada">Selada</string>
+    <string name="pakcoy">Pakcoy</string>
+    <string name="jumlah_lubang">Jumlah Lubang</string>
+    <string name="pilih_tanaman">Pilih Tanaman</string>
+    <string name="penanaman">Penanaman</string>
+    <string name="back">back</string>
+    <string name="lblpenanaman">lblpenanaman</string>
+    <string name="lbl_penanaman">penanaman</string>
+    <string name="lbl_Perawatan">Perawatan</string>
+    <string name="Pemberian_nutrisi">Pemberian Nutrisi</string>
+    <string name="kendala">kendala</string>
+    <string name="kendala_tanam">Kendala Tanam</string>
+    <string name="pestisida_nabati">Pestisida Nabati</string>
+    <string name="smartplant">SmartPlant</string>
+    <string name="aplikasi_edukasi_hidroponik">Aplikasi Edukasi Hidroponik</string>
+    <string name="selamat_datang">Selamat Datang !!</string>
+    <string name="text_praktik">Untuk melakukan Praktik Tanam Anda Harus Mendaftarkan Diri Anda Ke Admin Terlebih Dahulu Dan Jika Anda Sudah Memiliki Akun Slahkan Tekan Tombol Login</string>
+    <string name="daftar_diri">Hubungi Admin</string>
+    <string name="login">Login</string>
+    <string name="lbl_Praktik">Praktik</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="lbl_Login">Login</string>
+    <string name="email">Masukkan Email / No.telepon</string>
+    <string name="password">Masukkan Password</string>
+    <string name="jika">*Jika sudah memiliki akun</string>
+    <string name="aplikasi_smartplant">Aplikasi SmartPlant</string>
+    <string name="text_tentang">Smartplant adalah aplikasi edukasi yang menyediakan berbagai informasi seputar hidroponik dan juga mengajak penggunanya berinteraksi dalam simulasi tanam yang bisa diprektekkan secara langsung</string>
+    <string name="lbl_Tentang">Tentang</string>
+    <string name="lbl_no">085869277826</string>
+    <string name="hubungi_kami">Hubungi Kami :</string>
+    <string name="Perlengkapan">perlengkapan</string>
+    <string name="Tanaman">Tanaman</string>
+    <string name="Hama">Hama</string>
+    <string name="lbl_Katalog">Katalog</string>
+    <string name="poto_nutrisi1">poto_nutrisi1</string>
+    <string name="ab_mix">AB mix</string>
+    <string name="text_nutrisi1">Cara Pembuatan AB mix beserta takaran dalam penggunaannya</string>
+    <string name="selengkapnya">Selengkapnya</string>
+    <string name="tabel">Tabel</string>
+    <string name="text_nutrisi2">Tabel Ph dan ppm tanaman</string>
+    <string name="selengkapnya1">selengkapnya</string>
+    <string name="pakcoy1">Pakcoy</string>
+    <string name="budidaya_pakcoy">Budidaya Pakcoy</string>
+    <string name="text_pkcy">* Penyemaian \n  1 . Benih disemai dalam wadah selama 5 hari \n  2. Media semai yang digunakan adalah sekam bakar</string>
+    <string name="text_pkcy_lengkap">* Penyemaian \n
+        1. Benih disemai dalam wadah selama 5 hari \n
+        2. Media semai yang digunakan adalah sekam bakar \n
+        3. Benih Pakcoy normal akan kecambah dalam waktu 24 jam\n
+        4. Ketika benih sudah kecambah, harus dikenakan sinar matahari langsung\n
+        5. Tanaman pakcoy mudah ditanam di berbagai lokasi \n
+        6. Tidak terlalu membutuhkan banyak sinar matahari \n
+        7. Pakcoy akan lebih bagus jika mendapat sinar matahari full \n
+        8. Pakcoy hidroponik memilki tekstur lunak dan renyah
+
+    </string>
+    <string name="estimasi">Estimasi Biaya :</string>
+    <string name="hrg">Rp.2.000.000</string>
+    <string name="artikel_bersangkutan">Artikel Bersangkutan</string>
+    <string name="_3_musuh_utama_pakcoy">3 Musuh Utama Pakcoy</string>
+    <string name="lbl_pakcoy">Pakcoy</string>
+    <string name="btnpakcoy">Pakcoy</string>
+    <string name="txtpakcoy">Pakcoy</string>
+    <string name="poto_hama">poto_musuh</string>
+    <string name="poto_budidaya">poto_budidaya</string>
+    <string name="lbl_selada">Selada</string>
+    <string name="_3_musuh_utama_selada">3 Musuh Utama Selada</string>
+    <string name="budidaya_selada">Budidaya Selada</string>
+    <string name="text_selada">* Persemaian   1 . Benih disemai dalam wadah selama 5 hari   2. Media semai yang digunakan adalah sekam bakar</string>
+    <string name="poto_mint">poto_mint</string>
+    <string name="lbl_mint">Mint</string>
+    <string name="_3_musuh_utama_mint">3 musuh utama mint</string>
+    <string name="budidaya_mint">Budidaya_Mint</string>
+    <string name="lblmint">Mint</string>
+    <string name="poto_bayam">bayam</string>
+    <string name="lbl_bayam">Bayam</string>
+    <string name="_3_musuh_utama_bayam">3 musuh utama bayam</string>
+    <string name="budidaya_bayam">budidaya Bayam</string>
+
+    <string name="beri_nutrisi">Pemberian nutrisi hidroponik dilakukan secara berkala, dan melalui step-step yang harus diperhatikan
+        maka dari itu disarankan para pelaku hidroponik untuk mempelajari bebrapa cara tertentu yaitu.....</string>
+    <string name="jenis_nutrisi">Nutrisi hidroponik dibedakan menjadi beberapa jenis, baik secara jenis tanaman maupun secara
+        lokasi tanaman itu ditanam antara lain....</string>
+
+    <string name="kendala_layu">Tanaman hidroponik kerap sekali mengalami layu pada siang hari, banyak pelaku hidroponik pemula
+    yang merasa cemas ketika tanamannya mengalami layu pada siang hari. Berikut faktor layu pada siang hari....</string>
+    <string name="kendala_ulat">Tanaman hidroponik juga tidak bisa lepas dari adanya hama. Ulat, adalah salah satu hama yang meresahkan 
+    para pecinta hidroponik yang bisa merusak tanaman dalam waktu seketika. Inilah cara mengatasi hama ulat....</string>
+
+    <string name="daun_sirsak">Daun sirsak mengandung senyawa kimia dari golongan annanoin dan resin yang dapat digunakan untuk mengendalikan hama thrips.
+        Daun sirsak juga dapat dijadikan pestisida untuk beberapa hama lain seperti....</string>
+    <string name="daun_mimba">Mimba (Azadirachta indica A. Juss; Mileaceae), merupakan salah satu tumbuhan sumber bahan pestisida nabati.
+        Tanaman ini tersebar di daratan India. Di Indonesia tanaman ini banyak ditemukan di....</string>
+    //=========================================================================================================================================
+    <string name="beri_nutrisi_lengkap">Pemberian nutrisi hidroponik dilakukan secara berkala, dan melalui step-step yang harus diperhatikan
+        maka dari itu disarankan para pelaku hidroponik untuk mempelajari bebrapa cara tertentu yaitu dengan mengukur dosis pemberian nutrisi
+    berdasarkan usia tanaman. dan tak kalah penting untuk memberi nutrisi tanaman sejak dini (usia 2hari setelah kecambah)</string>
+    <string name="jenis_nutrisi_lengkap">Nutrisi hidroponik dibedakan menjadi beberapa jenis, baik secara jenis tanaman maupun secara
+        lokasi tanaman itu ditanam antara lain, tanaman dibedakan menjadi tanaman buah dan daun serta tanaman dataran tinggi dan dataran rendah.
+    Jadi semua tanaman yang dimakan buahnya digolongkan menjadi tanaman buah, tanaman yang dimakan daunnya digolongkan menjadi tanaman daun.
+    begitu pun dengan nutrisi tanaman tersebut, ada Nutrisi Daun dan Nutrisi Buah</string>
+
+    <string name="kendala_layu_lengkap">Tanaman hidroponik kerap sekali mengalami layu pada siang hari, banyak pelaku hidroponik pemula
+    yang merasa cemas ketika tanamannya mengalami layu pada siang hari. Berikut faktor layu pada siang hari, yang pertama adalah SUHU AIR MENINGKAT
+    ini dapat menyebabkan tanaman stres karena akar tidak bisa leluasa menyerap unsur didalam air. Faktor lain adalah adanya jamur (fusarium)
+    yang melumpuhkan sel sel pada akar tanaman</string>
+    <string name="kendala_ulat_lengkap_lengkap">Tanaman hidroponik juga tidak bisa lepas dari adanya hama. Ulat, adalah salah satu hama yang meresahkan
+    para pecinta hidroponik yang bisa merusak tanaman dalam waktu seketika. Inilah cara mengatasi hama ulat ialah dengan memberikan pestisida nabati
+    dengan menggunakan baby oil dengan dosis 10 tetes untuk satu liter air</string>
+
+    <string name="daun_sirsak_lengkap">Daun sirsak mengandung senyawa kimia dari golongan annanoin dan resin yang dapat digunakan untuk mengendalikan hama thrips.
+        Daun sirsak juga dapat dijadikan pestisida untuk beberapa hama lain seperti kutu, ulat, belalang. Karena daun isrsak memilki aroma yang 
+    tidak disukai hama. jadi penyemprotan dengn ramuan daun sirsak ini sifatnya hanya sebagai pengalih indra penciuman pada hama</string>
+    <string name="daun_mimba_lengkap">Mimba (Azadirachta indica A. Juss; Mileaceae), merupakan salah satu tumbuhan sumber bahan pestisida nabati.
+        Tanaman ini tersebar di daratan India. Di Indonesia tanaman ini banyak ditemukan di Jawa Tengah. Khasiatnya cukup banyak sebagai herbal
+    sudah banyak dikenal sebagai anti diabetes. tanaman ini juga dapat digunakan sebagai pencegah hama.</string>
+    //=========================================================================================================================================
+    <string name="pemberian_ab_mix">Pemberian AB Mix</string>
+    <string name="jenis_abmix">Jenis AB Mix</string>
+    <string name="layu_siang_hari">Layu Siang Hari</string>
+    <string name="ulat_pada_sawi">Ulat Pada Sawi</string>
+    <string name="netpot">Netpot</string>
+    <string name="rockwool">Rockwool</string>
+    <string name="kutu">Kutu Kebul</string>
+    <string name="tungau">Tungau</string>
+
+    //=========================================================================================================================================
+    <string name="netpot_des">Netpot merupakan alat untuk menopang tanaman ketika akan di pindah ke installasi hidroponik,
+        Netpot adalah tempat/wadah untuk tanaman sama hal nya seperti pot namun netpot digunakan dalam hidroponik</string>
+    <string name="rockwool_des">Rockwool adalah salah satu bahan yang biasa digunakan dalam metode tanam hidroponik
+        yang berfungsi sebagai media tanam. Rockwool terbuat dari batuan basalt
+        yang dipanaskan dengan suhu yang sangat tinggi hingga membentuk busa dan teerbentuklah rockwool.</string>
+
+    <string name="cabai_des">Cabai atau cabai merah adalah buah dan tumbuhan anggota genus Capsicum. Buahnya dapat digolongkan sebagai sayuran maupun bumbu, tergantung bagaimana digunakan.
+        Sebagai bumbu, buah cabai yang pedas sangat populer di Asia Tenggara sebagai penguat rasa makanan. </string>
+    <string name="pakcoy_des">Pakcoy atau bok choy merupakan jenis sayuran yang populer.
+        Sayuran yang dikenal pula sebagai sawi sendok ini mudah dibudidayakan dan dapat dimakan segar atau diolah menjadi asinan</string>
+
+    <string name="tungau_des">Hama tungau bersembunyi di balik daun. Hama tungau menyerang tanaman dengan cara menghisap cairan daun di dalam jaringan mesofil hingga jaringan itu rusak.
+        Akibatnya klorofil pada daun menjadi rusak dan menghambat proses fotosintesis tanaman.</string>
+    <string name="kutu_kebul_des">Kutu kebul ( bemisia tabaci ) atau dipanggil juga kutu putih, secara internasional dikenal dengan silverleaf whitefly, merupakan salah satu dari lalat putih yang saat ini termasuk hama
+        penting pertanian budidaya. Kutu kebul diklasifikasikan ke dalam keluarga Aleyrodidae, sub-urutan besar serangga, Homoptera.</string>
+
+    //===================================================================================================================================
+
+    <string name="tiga_bahan">Racikan tiga bahan ini telah kami implementasi di 50 mdpl sampai 420 mdpl, dan menghasilkan tanaman yang cukup bagus.
+    Ramuan ini cocok diaplikasikan di pH 5.5 s/d 7.0 dan air baku max 100 PPM</string>
+
+    <string name="empat_bahan">Formula 4 BAHAN lebih bagus dari 3 bahan, karena mendapat supplay Kalium yang baik sehingga tanaman lebih berbobot.
+    Ramuan ini cocok diaplikasikan di pH 5.5 s/d 7.0 dan air baku max 150 PPM</string>
+
+    <string name="lima_bahan">Racikan ini lebih bagus dari 3 bahan / 4 bahan. karena unsur mikro lebih terpenuhi. sehingga tanaman mampu bertahan di medan yang lebih ekstrim
+    Ramuan ini cocok diaplikasikan di pH 5.0 s/d 7.0 dan air baku max 150 PPM</string>
+
+    //===================================================================================================================================
+
+
+    <string name="tabel_nutrisi">Tabel Nutrisi</string>
+    <string name="takaran_instan">Takaran Instan</string>
+    <string name="_4_bahan">4 Bahan</string>
+    <string name="_5_bahan">5 Bahan</string>
+    <string name="_7_bahan">7 Bahan</string>
+    <string name="_12_bahan">12 Bahan</string>
+    <string name="_3_bahan">3 Bahan</string>
+    <string name="liter">Racikan untuk 5 Liter</string>
+
+
+    //===================================================================================================================================
+    <string name="belum">Belum</string>
+    <string name="satu">Step 1</string>
+    <string name="dua">Step 2</string>
+    <string name="tiga">Step 3</string>
+    <string name="empat">Step 4</string>
+    <string name="lima">Step 5</string>
+    <string name="enam">Step 6</string>
+    <string name="tuju">Step 7</string>
+    <string name="delapan">Step 8</string>
+    <string name="sembilan">Step 9</string>
+    <string name="des_satu">Siapkan bahan-bahan anda, dan beri cek list !!</string>
+    <string name="des_dua">Rendam benih dengan air hangat, selama 5 menit</string>
+    <string name="des_tiga_a">Setelah itu, benih siap di semai di Rockwool</string>
+    <string name="des_tiga_b">Apakah anda sudah menyiapkan rockwool?</string>
+    <string name="des_empat">Potong rockwool berbentuk dadu, tetapi tidak sampai putus (lihat gambar) </string>
+    <string name="des_lima_a">Lubangi rockwool dan masukkan benih satu per satu !</string>
+    <string name="des_lima_b">Silahkan unggah gambar anda di step ini !!</string>
+    <string name="des_enam">Semprot semaian dengan air biasa secukupnya, dan simpan di tempat yang todak terkena sinar matahari langsung</string>
+    <string name="des_tuju_a">Setelah 24 jam, benih akan kecambah. Jemur dibawah cahaya matahari</string>
+    <string name="des_tuju_b">Silahkan upload gambar semaian anda pada step ini !!</string>
+    <string name="des_delapan_a">Jemur semaian setiap hari, usahakan agar media tetap lembab (jgn sampai kekeringan !!)</string>
+    <string name="des_delapan_b">Berapa lama anda menjemur semaian?</string>
+    <string name="waktu1">0 s/d 3 jam</string>
+    <string name="waktu2">3 s/d 5 jam</string>
+    <string name="waktu3">5 s/d 10 jam</string>
+    <string name="des_sembilan">Setelah 5 s/d 7 hari, semaian siap dipindah ke installasi hidroponik</string>
+    <string name="des_sembilan_b">Berapa jumlah daun tanaman anda saat pindah tanam? (7 hari)</string>
+    <string name="daun1">0 s/d 2 </string>
+    <string name="daun2">3 s/d 4 </string>
+    <string name="daun3">5 s/d 6 </string>
+    <string name="selesai">Finish !!</string>
+    <string name="end">Selesai</string>
+    <string name="selamat">Selamat anda telah selesai melakukan praktik semai</string>
+    <string name="score">Dengan nilai hasil semaian anda : </string>
+    <string name="baik">Luar Biasa !!</string>
+    <string name="cukup">Bagus !!</string>
+    <string name="kurang">Kurang !!</string>
+    <string name="upload">Upload</string>
+    <string name="sudah">Sudah</string>
+    <string name="next">Selanjutnya</string>
+    <string name="before">Sebelumnya</string>
+    <string name="fitur">Fitur ini hanya bisa diakses oleh orang yang memiliki USERNAME dan PASSWORD</string>
+    <string name="biji">biji</string>
+
+    //===================================================================================================================================
+    <string-array name="lubang_tanam">
+        <item>Jumlah Lubang</item>
+        <item>10 s/d 100</item>
+        <item>101 s/d 200</item>
+        <item>201 s/d 300</item>
+        <item>301 s/d 400</item>
+        <item>401 s/d 500</item>
+    </string-array>
+
+
+    //===================================================================================================================================
+
+</resources>

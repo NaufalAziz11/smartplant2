@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.smartplant.pakcoy"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#009e0f">
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:onClick="back"
+            android:layout_marginStart="5dp"
+            app:srcCompat="@drawable/ic_left_arrow_angle"
+            android:contentDescription="@string/back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pakcoy"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_marginTop="68dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+                    <ImageView
+                        android:layout_marginStart="5dp"
+                        android:id="@+id/imageViewgambar"
+                        android:layout_width="173dp"
+                        android:layout_height="191dp"
+                        app:srcCompat="@drawable/bayam_background"
+                        android:contentDescription="@string/poto_nutrisi1" />
+
+                    <TextView
+                        android:id="@+id/textViewnama"
+                        android:layout_width="173dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Tanaman"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="180dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        />
+
+                    <TextView
+                        android:id="@+id/textViewsinopsis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="200dp"
+                        android:text="deskripsi"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="5dp"
+                        android:minLines="1"
+                        android:maxLines="9"
+
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textViewselengkapnya"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginTop="170dp"
+                        android:text="@string/selengkapnya"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="15sp"
+                        android:onClick="lengkap"/>
+
+                        <TextView
+                            android:id="@+id/textViewdetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="200dp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginTop="5dp"
+                            android:textSize="15sp"
+                            android:onClick="kurang"
+                            />
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="250dp"
+                    android:text="@string/estimasi"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/textViewbiaya"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="270dp"
+                    android:text="Rp.xxxxxx"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp" />
+
+
+
+
+                <FrameLayout
+                    android:layout_marginTop="400dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="173dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/artikel_bersangkutan"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="100dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:orientation="vertical"
+                        >
+
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_marginStart="50dp"
+                        app:srcCompat="@mipmap/musuh_pkcy"
+                        android:contentDescription="@string/poto_hama" />
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_3_musuh_utama_pakcoy"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:orientation="vertical"
+                        >
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_marginStart="200dp"
+                        app:srcCompat="@mipmap/budidaya"
+                        android:contentDescription="@string/poto_budidaya" />
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/budidaya_pakcoy"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        />
+                    </LinearLayout>
+            </FrameLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

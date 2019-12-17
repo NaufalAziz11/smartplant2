@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.example.smartplant">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".takaran_abmix3" />
+        <activity android:name=".takaran_abmix2" />
+        <activity android:name=".takaran_abmix" />
+        <activity android:name=".meracik_abmix" />
+        <activity android:name=".tabel" />
+        <activity android:name=".katalog_hama" />
+        <activity android:name=".katalog_tanaman" />
+        <activity android:name=".katalog_perlengkapan" />
+        <activity android:name=".pestisida_sirsak" />
+        <activity android:name=".pestisida_mimba" />
+        <activity android:name=".kendala_ulat" />
+        <activity android:name=".kendala_layu" />
+        <activity android:name=".jeni_abmix" />
+        <activity android:name=".pemberian_abmix" />
+        <activity android:name=".Pestisida_Nabati" />
+        <activity android:name=".Kendala_Tanam" />
+        <activity android:name=".Pemberian_Nutrisi" />
+
+        <activity android:name=".bayam" />
+        <activity android:name=".mint" />
+        <activity android:name=".selada" />
+        <activity android:name=".pakcoy" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".tentang" />
+        <activity android:name=".katalog" />
+        <activity android:name=".praktik" />
+        <activity android:name=".nutrisi" />
+        <activity android:name=".perawatan" />
+        <activity android:name=".penanaman" />
+        <activity android:name=".PraktikSatu" />
+        <activity android:name=".praktik_dua" />
+        <activity android:name=".Praktik_Tiga" />
+        <activity android:name=".Praktik_Empat" />
+        <activity android:name=".Praktik_Lima" />
+        <activity android:name=".Praktik_Enam" />
+        <activity android:name=".Praktik__Tujuh" />
+        <activity android:name=".Praktik_Delapan" />
+        <activity android:name=".Praktik_Sembilan" />
+        <activity android:name=".Hasil_Praktik" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".awal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

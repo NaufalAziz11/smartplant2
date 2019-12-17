@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.smartplant.tentang"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#009e0f">
+
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:onClick="back"
+            app:srcCompat="@drawable/ic_left_arrow_angle"
+            android:contentDescription="@string/back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_Tentang"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            />
+    </FrameLayout>
+    <ScrollView
+        android:layout_marginTop="68dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="638dp">
+
+
+
+        <TextView
+            android:id="@+id/textViewHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:textAlignment="center"
+            android:textColor="#009e0f"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/textViewh1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+
+            android:textAlignment="center"
+            android:textColor="#009e0f"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewh2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="155dp"
+
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewdesc"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="570dp"
+            android:contentDescription="@string/gpenanaman"
+            app:srcCompat="@drawable/phone_foreground"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="165dp"
+            tools:srcCompat="@drawable/phone_foreground" />
+        <TextView
+            android:id="@+id/textViewNomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="580dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="570dp"
+            android:contentDescription="@string/gpenanaman"
+            app:srcCompat="@drawable/phone_foreground"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="165dp"
+            tools:srcCompat="@drawable/phone_foreground" />
+
+    </FrameLayout>
+    </ScrollView>
+
+</RelativeLayout>

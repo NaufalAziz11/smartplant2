@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".takaran_abmix"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#009e0f">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:onClick="back"
+            app:srcCompat="@drawable/ic_left_arrow_angle"
+            android:contentDescription="@string/back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/takaran_instan"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            />
+    </FrameLayout>
+    <ScrollView
+        android:layout_marginTop="68dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/buah_foreground"
+            android:layout_marginStart="0dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="@string/liter" />
+
+        <TableLayout
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tablelayoutid"
+            android:layout_marginTop="6dp">
+
+        <TableRow
+            android:id="@+id/rowlay"
+            android:background="@android:color/holo_blue_light"
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Nama Bahan" />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="Untuk Buah"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:text="Untuk Daun" />
+        </TableRow>
+
+            <TableRow
+                android:id="@+id/row"
+                android:background="@color/putih"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Pektan A" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row1"
+                android:background="@color/putih"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Calnit" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="1100 gr" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="1000gr" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/roww"
+                android:background="@color/putih"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Pekatan B" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row2"
+                android:background="@color/putih"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Flex-G" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="1400 gr" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="1300 gr" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row3"
+                android:background="@color/putih"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Mag-S " />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="400 gr" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="300 gr" />
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/gelas_foreground"
+            android:layout_marginStart="0dp"
+
+            />
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:text="@string/tiga_bahan"
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            app:srcCompat="@mipmap/senyum_foreground"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
