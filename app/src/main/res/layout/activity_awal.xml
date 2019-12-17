@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009e0f"
-    tools:context=".tentang"
+    tools:context=".old.tentang"
     >
 
 
