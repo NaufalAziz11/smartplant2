@@ -1,28 +1,29 @@
-package com.example.smartplant.ui.pakcoy;
 
-import android.content.Context;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
+        package com.example.smartplant.ui.pakcoy;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
+        import android.content.Context;
+        import android.util.Log;
+        import android.view.LayoutInflater;
+        import android.view.View;
+        import android.view.ViewGroup;
+        import android.widget.ImageView;
+        import android.widget.TextView;
 
-import com.example.smartplant.BuildConfig;
-import com.example.smartplant.R;
-import com.example.smartplant.data.model.pakcoy.DataResult;
-import com.example.smartplant.utils.ImageHelper;
+        import androidx.annotation.NonNull;
+        import androidx.recyclerview.widget.RecyclerView;
 
-import org.sufficientlysecure.htmltextview.HtmlHttpImageGetter;
-import org.sufficientlysecure.htmltextview.HtmlTextView;
+        import com.example.smartplant.BuildConfig;
+        import com.example.smartplant.R;
+        import com.example.smartplant.data.model.pakcoy.DataResult;
+        import com.example.smartplant.utils.ImageHelper;
 
-import java.util.List;
+        import org.sufficientlysecure.htmltextview.HtmlHttpImageGetter;
+        import org.sufficientlysecure.htmltextview.HtmlTextView;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
+        import java.util.List;
+
+        import butterknife.BindView;
+        import butterknife.ButterKnife;
 
 public class PakCoyAdapter extends RecyclerView.Adapter<PakCoyAdapter.ViewHolder> {
 

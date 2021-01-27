@@ -18,7 +18,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug {
-            buildConfigField 'String', 'BASE_URL', '"http://192.168.137.1/Android/smartplant/"'
+            buildConfigField 'String', 'BASE_URL', '"http://192.168.43.213/Android/smartplant/"'
+            //hotspot hp
+            buildConfigField 'String', 'BASE_URL1', '"http://192.168.10.24/Android/smartplant/"'
+            //lan lab 1
+
+            buildConfigField 'String', 'BASE_URLPerawatan', '"http://192.168.43.213/Android/smartplant/jenis_perawatan/"'
+            //hotspot hp
+
+            buildConfigField 'String', 'BASE_URLPerawatan1', '"http://192.168.10.24/Android/smartplant/jenis_perawatan/"'
+            //lan lab1
+
+
         }
     }
     compileOptions {

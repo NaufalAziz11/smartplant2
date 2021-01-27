@@ -1,9 +1,10 @@
-package com.example.smartplant.data.model.pakcoy;
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
+        package com.example.smartplant.data.model.pakcoy;
 
-import java.io.Serializable;
+        import com.google.gson.annotations.Expose;
+        import com.google.gson.annotations.SerializedName;
+
+        import java.io.Serializable;
 
 public class DataResult implements Serializable {
     @SerializedName("id_penanaman")

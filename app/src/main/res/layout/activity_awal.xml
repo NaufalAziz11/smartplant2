@@ -5,42 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009e0f"
-    tools:context=".old.tentang"
+    tools:context=".ui.Awalan.Awal"
     >
 
 
-        <FrameLayout
-            android:layout_width="350dp"
-            android:layout_height="638dp"
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="638dp"
 
-            >
+        >
 
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="240dp"
-                android:text="@string/smartplant"
-                android:textAlignment="center"
-                android:textColor="#ffff"
-                android:textSize="45sp" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:text="@string/smartplant"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="45sp" />
 
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="300dp"
-                android:text="@string/aplikasi_edukasi_hidroponik"
-                android:textAlignment="center"
-                android:textColor="#ffff"
-                android:textSize="25sp" />
-
-
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:text="@string/aplikasi_edukasi_hidroponik"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="25sp" />
 
 
 
 
-        </FrameLayout>
+
+
+    </FrameLayout>
 
 
 </RelativeLayout>

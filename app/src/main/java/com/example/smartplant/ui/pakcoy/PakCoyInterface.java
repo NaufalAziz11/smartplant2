@@ -1,6 +1,7 @@
-package com.example.smartplant.ui.pakcoy;
 
-import com.example.smartplant.data.model.pakcoy.ResponsePakCoy;
+        package com.example.smartplant.ui.pakcoy;
+
+        import com.example.smartplant.data.model.pakcoy.ResponsePakCoy;
 
 public interface PakCoyInterface {
     interface View{

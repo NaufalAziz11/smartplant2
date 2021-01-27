@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Katalog.katalog"
+    >
+
+
+    <ScrollView
+        android:layout_marginTop="68dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="638dp">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="180dp"
+                app:srcCompat="@drawable/ic_technical_support"
+
+                android:onClick="Perlengkapan"
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="250dp"
+                android:text="@string/Perlengkapan"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:onClick="Perlengkapan"
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="180dp"
+                app:srcCompat="@drawable/ic_salad"
+
+                android:onClick="Tanaman"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="250dp"
+                android:text="@string/Tanaman"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:onClick="Tanaman"
+                />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="180dp"
+                app:srcCompat="@drawable/ic_pest_observation"
+
+                android:onClick="Hama"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="265dp"
+                android:layout_marginTop="250dp"
+                android:text="@string/Hama"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:onClick="Hama"
+                />
+
+
+
+        </FrameLayout>
+    </ScrollView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="720dp"
+        android:background="#009e0f">
+
+    </FrameLayout>
+
+</RelativeLayout>
